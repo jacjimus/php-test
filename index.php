@@ -6,7 +6,7 @@ Class MyNumber extends Myclass
   {
     $count = 0;
     $num = 0;
-    while ($count <= 10 ){
+    while ($count < 10 ){
       if($this->sumDigitsIsTen($num) && $this->numHasSeven($num)){
         echo "<pre>";
         echo $num;
